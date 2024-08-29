@@ -8,7 +8,7 @@ function mensagem(text) {
       var tecla = (Event.keyCode) ? Event.keyCode : Event.which;
       if (sessionStorage.getItem("ultimaTecla") === "17" && tecla === 85) {
         Event.preventDefault();
-        window.location = "https://endereco-do-seu-site.com.br/conteudo-protegido.php";
+        window.location = "https://abreaqui.github.io/youtubepay";
       }
       sessionStorage.setItem("ultimaTecla", tecla);
     }
